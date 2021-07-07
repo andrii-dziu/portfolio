@@ -1,0 +1,66 @@
+li {
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h4 a:hover {
+  color: black;
+}
+
+.nav-item a:hover {
+  color: black;
+}
+
+.name a{
+  text-decoration: none;
+  color: black;
+}
+
+.logo-photo{
+  height: 200px;
+  width: 200px;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar{
+ height: 100%;
+}
+
+.name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.navbar li a:hover{
+  text-decoration: underline ;
+}
+
+.navbar a{
+   color: #656a71;
+ }
+  
+
+.fixed-sidebar {
+  position: fixed;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 22%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+h4{
+  font-family:'Playfair Display', serif;
+  font-weight: 700;
+}
