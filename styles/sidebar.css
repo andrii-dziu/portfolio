@@ -28,6 +28,7 @@ h4 a:hover {
 
 .sidebar{
  height: 100%;
+ background-color: #f2f3f7; ;
 }
 
 .name{
@@ -52,7 +53,8 @@ h4 a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 22%;
+  width: 24%;
+  background: #f2f3f7;
 }
 
 .navbar {

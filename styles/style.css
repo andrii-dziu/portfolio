@@ -44,10 +44,16 @@
   font-family: "Quicksand", Arial, sans-serif;
   color: black
 }
+.about-desc {
+  padding-left: 60px;
+}
 
+.contacts-heading{
+  padding-left: 60px;
+}
 .heading-meta {
   margin-bottom: 15px;
-  padding: 100px 0 0 60px;
+  padding: 100px 0 0 0px;
   display: block;
   font-size: 10px;
   text-transform: uppercase;
@@ -59,7 +65,7 @@
 .about-heading {
   font-size: 20px;
   margin-bottom: 4em;
-  padding-left: 60px;
+  padding-left: 0px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -69,7 +75,7 @@
 }
 
 p {
-  padding: 0 20px 0 60px;
+  padding: 0 20px 0 0px;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
@@ -154,6 +160,11 @@ p {
 .col-md-6 {
   margin-left: 60px;
 }
+@media (max-width: 992px) {  
+   .col-md-6 { 
+     margin-left: 30px;
+   }
+  }
 
 .form-group {
   margin-bottom: 20px
@@ -201,4 +212,44 @@ p {
 
 #icon-center {
   display: table-cell;
+}
+
+
+@media (max-width: 1200px) { 
+  .container {
+    min-width: 100%; 
+  }
+  .fixed-sidebar {
+    width: 26%;
+  }
+ }
+ 
+ @media (min-width: 1200px) { 
+  .fixed-sidebar {
+    width: 24%;
+  }
+ }
+
+
+ @media (max-width: 991px) {
+   .fixed-sidebar {
+     visibility: hidden;
+   }
+   .desc {
+     text-align: center;
+     padding-left: 0;
+   }
+    
+}
+
+@media (max-width: 768px) {
+  .contacts-form {
+    margin-left: 0;
+  }  
+}
+
+@media (max-width: 576px) {
+  .contacts-row {
+    width: 100%;
+  }  
 }
