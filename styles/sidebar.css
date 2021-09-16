@@ -17,9 +17,13 @@ h4 a:hover {
   color: black;
 }
 
+.logo{
+  border-radius: 50%;
+}
+
 .logo-photo{
-  max-height: 200px;
-  max-width: 200px;
+  height: 200px;
+  width: 200px;
   margin-top: 60px;
   display: flex;
   align-items: center;
