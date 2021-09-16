@@ -44,13 +44,7 @@
   font-family: "Quicksand", Arial, sans-serif;
   color: black
 }
-.about-desc {
-  padding-left: 60px;
-}
 
-.contacts-heading{
-  padding-left: 60px;
-}
 .heading-meta {
   margin-bottom: 15px;
   padding: 100px 0 0 0px;
@@ -82,8 +76,37 @@ p {
   color: rgba(0, 0, 0, .7)
 }
 
-.education-desc {
-  padding-left: 60px;
+.panel-heading {
+  display: flex;
+  width: 90%;
+  height: 50px;
+  background-color: white;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.panel-titel {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  color: #656a71;
+}
+
+.education-description {
+  margin: 30px 0 0 50px;
+}
+
+.education-desc p {
+  font-size: 18px;
+}
+
+.skills-heading, .progress-heading, .education-desc, .contacts-heading, .about-desc    {
+  margin-left: 60px;
+}
+
+.progress {
+  margin-bottom: 60px;
+  
 }
 
 .services {
