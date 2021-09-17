@@ -19,6 +19,8 @@ h4 a:hover {
 
 .logo{
   border-radius: 50%;
+  object-fit: cover;
+  object-position: 0 20%;
 }
 
 .logo-photo{
