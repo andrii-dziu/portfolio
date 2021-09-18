@@ -12,18 +12,18 @@ h4 a:hover {
   color: black;
 }
 
-.name a{
+.name a {
   text-decoration: none;
   color: black;
 }
 
-.logo{
+.logo {
   border-radius: 50%;
   object-fit: cover;
   object-position: 0 20%;
 }
 
-.logo-photo{
+.logo-photo {
   height: 200px;
   width: 200px;
   margin-top: 60px;
@@ -32,35 +32,35 @@ h4 a:hover {
   justify-content: center;
 }
 
-.sidebar{
- height: 100%;
- background-color: #f2f3f7; ;
+.logo-photo img {
+  height: 100%;
+  width: 100%
 }
 
-.name{
+.sidebar {
+  height: 100%;
+  background-color: #f2f3f7;
+  position: fixed;
+  width: 300px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-top: 20px;
 }
 
-.navbar li a:hover{
-  text-decoration: underline ;
+.navbar li a:hover {
+  text-decoration: underline;
 }
 
-.navbar a{
-   color: #656a71;
- }
-  
-
-.fixed-sidebar {
-  position: fixed;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 24%;
-  background: #f2f3f7;
+.navbar a {
+  color: #656a71;
 }
 
 .navbar {
@@ -68,7 +68,7 @@ h4 a:hover {
   justify-content: center;
 }
 
-h4{
-  font-family:'Playfair Display', serif;
+h4 {
+  font-family: 'Playfair Display', serif;
   font-weight: 700;
 }
