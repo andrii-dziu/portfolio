@@ -252,9 +252,9 @@ p {
 }
 
 @media (max-width: 991px) {
-  .fixed-sidebar {
+  /* .fixed-sidebar {
     visibility: hidden;
-  }
+  } */
   .desc {
     text-align: center;
     padding-left: 0;
