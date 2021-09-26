@@ -72,3 +72,14 @@ h4 {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
 }
+
+.burger {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.collaps-item {
+  margin-top: 0;
+}
