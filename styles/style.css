@@ -239,15 +239,30 @@ p {
 .adapt-menu {
   position: fixed;
   z-index: 1;
+}
+
+.burger {
+  padding: 17px 15px 0 0;
   display: none;
 }
+
+.fa-bars {
+  color: #000;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+
+
 
 @media (max-width: 576px) {
   .contacts-row {
     width: 100%;
   }
   .adapt-menu {
-    width: 80%;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
   }
 
   .nav-hide{
@@ -267,9 +282,14 @@ p {
   .content {
     width: 100%;
   }
-  .adapt-menu{
+
+  .burger {
     display: block;
   }
+
+  .active {
+    display: block;
+  }  
 }
 
 
